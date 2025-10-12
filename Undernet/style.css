@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "UT";
+  src: url("assets/8bitoperator_jve.ttf") format("truetype");
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "UT", monospace;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: #FFD700;
+  border-color: #FFD700;
+}
