@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "UT";
+  src: url("assets/8bitoperator_jve.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  font-family: "UT", monospace;
+}
+
+.navbar {
+  border-bottom: 2px solid #fff;
+  display: flex;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+
+.navbar li {
+  flex: 1;
+  border-right: 2px solid #fff;
+}
+
+.navbar li:last-child {
+  border-right: none;
+}
+
+.navbar li a {
+  display: block;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar li a:hover {
+  color: #ffd700;
+}
+
+.main {
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar {
+  width: 260px;
+  margin-right: 20px;
+}
+
+.profile-card {
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-card img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  vertical-align: middle;
+}
+
+.profile-card h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile-card p {
+  margin: 2px 0;
+  color: #888;
+}
+
+.profile-card .stats {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.trends {
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+.trends h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.trends ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.trends li {
+  margin-bottom: 8px;
+}
+
+.trends li a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.trends li a:hover {
+  color: #ffd700;
+}
+
+.feed {
+  flex: 1;
+  border: 2px solid #fff;
+  padding: 10px;
+  min-height: 600px;
+  overflow-y: auto;
+}
+
+.feed h3 {
+  margin-top: 0;
+}
+
+.post {
+  border: 2px solid #fff;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.post .actions button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.post .actions button:hover {
+  color: #ffd700;
+}
