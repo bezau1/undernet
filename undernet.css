@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "UT";
+  src: url("8bitoperator_jve.ttf") format("truetype");
+}
+
+body {
+  background: #5B2CFF;
+  color: #ffffff;
+  font-family: "UT", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px solid #ffffff;
+  background: #000000;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 2px solid #ffffff;
+}
+
+.navbar a:last-child {
+  border-right: none;
+}
+
+.navbar a:hover {
+  color: #FFD700;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 260px;
+  border-right: 2px solid #ffffff;
+  padding: 15px;
+}
+
+.profile-card,
+.trends {
+  border: 2px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-card h2,
+.profile-card p {
+  margin: 0;
+}
+
+.profile-card .stats {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.profile-card .stats li {
+  margin-bottom: 2px;
+}
+
+.trends h2 {
+  margin-top: 0;
+}
+
+.trends ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trends ul li {
+  margin-bottom: 5px;
+}
+
+.trends ul li a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.trends ul li a:hover {
+  color: #FFD700;
+}
+
+.feed {
+  flex: 1;
+  padding: 15px;
+}
+
+.post {
+  border: 2px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post .actions {
+  margin-top: 5px;
+}
+
+.post .actions button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.post .actions button:hover {
+  color: #FFD700;
+}
