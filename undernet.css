@@ -30,6 +30,44 @@ body {
   text-decoration: none;
   border-right: 2px solid #ffffff;
 }
+/* Navbar list adjustments */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  flex: 1;
+  border-right: 2px solid #ffffff;
+}
+
+.navbar li:last-child {
+  border-right: none;
+}
+
+.navbar li a {
+  display: block;
+  padding: 10px;
+}
+
+/* Trending list adjustments */
+.trends ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.trends ul li {
+  margin-bottom: 5px;
+  color: #00aaff;
+}
+
+.trends ul li:hover {
+  color: #FFD700;
+}
+
 
 .navbar a:last-child {
   border-right: none;
